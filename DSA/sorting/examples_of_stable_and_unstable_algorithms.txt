@@ -1,0 +1,13 @@
+example of stable algorithms:
+	
+	-bubble sort
+	-insertion sort
+	-merge sort
+
+example of unstable algorithms:
+
+	-selection sort
+	-quick sort
+	-heap sort
+
+
