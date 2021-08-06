@@ -1,0 +1,16 @@
+The problem: you are given a very large sorted array
+and then you are asked to find the index of an element if present in the array
+if that is not the case you have to return -1
+
+
+for this question you would implement the following funciton
+the time complexity of this implementation would be O(log(position))
+
+int search(int arr[], int x){
+	if(arr[0] == x) return 0;
+	int i{1};
+	while(arr[i] < x)
+		i *= 2;
+	if(arr[i] == x) return i;
+	return binarySearch(arr, x, i/2+1, i-1);
+}
