@@ -1,0 +1,11 @@
+APPLICATIONS OF HASHING
+
+1-dictionaries
+2-database indexing
+3-cryptography
+4-caches
+5-symbol tables in compilers/interpreters
+6-routers
+7-getting data from databases
+
+& many many more applications

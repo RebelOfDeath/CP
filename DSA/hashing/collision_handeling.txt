@@ -1,0 +1,68 @@
+If we know keys in advance, then we can use perfect hashing.
+
+if we do not know keys, then we use one of the following.
+
+	chaining
+
+		data structures for storing chains
+
+			linked list
+
+			dynamic sized array
+
+			self balancing BST
+
+
+
+	open addressing
+		
+		linear probing
+			
+			linearly search for first empty slot when there is a collision (we do this in a linear manner so if we reach the end we go to the beginning)
+			here clustering is a major problem, because they impace the performance of open addressing (we can handle this by using the following)
+
+			in linear probing the position of an element can be defined as hash(key, i) = (h(key) + 1) % 7
+		
+
+			quadratic probing
+
+				we quadratically search (i ^ 2) for the first empty slot when there is a collision
+				this has the same problem with clustering, the only difference is that you here have secondary clusters	
+				the other problem is you may not find an empty slot (the only time you will be certain you will find a empty slot
+				iff your load factor < 0.5 && M is prime)
+
+				in quadratical probing the position of an element can be defines as hash(key, i) = (h(key) + i^2) % m
+
+
+
+			double hashing
+
+				has(key, i) = (h1(key) + ih2(key)) % m
+				
+				if h2(key) is relatively prime to m, then it will always find a free slot if there is one
+				
+				distributes keys more uniformly than linear and quadratic hashing
+
+				you will not have the same clustering problem as with the other two
+				
+
+
+the psudo code algorithm for double hashing is:
+
+void doubleHashingInsert(key){
+	if(table is full)
+		return error;
+
+	probe = h1(key); offset = h2(key);
+	while(table[probe] is occupied)
+		probe = (probe + offset)%m;
+	table[probe] = key;
+}
+
+
+
+
+
+
+
+	

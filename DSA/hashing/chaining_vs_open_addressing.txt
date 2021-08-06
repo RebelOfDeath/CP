@@ -1,0 +1,21 @@
+Chaining
+
+	hash table never fills
+	
+	less sensetive to hash funciton
+
+	poor cache friendly
+
+	extra space for links
+
+
+
+open addressing
+
+	table may become full and resizing  will become mandatory
+
+	extra care required for clustring
+
+	cache friendly
+
+	extra space might be needed to achieve same performance as chaining
