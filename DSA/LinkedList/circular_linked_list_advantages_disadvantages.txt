@@ -1,0 +1,9 @@
+advantages:
+	
+	* we can traverse the whole list from any node
+	* implementation of algorithms like round robin
+	* we can insert at the beginning and end by just maintaining one tail reference/pointer
+
+disadvantage:
+	
+	*implementations of operations become complex

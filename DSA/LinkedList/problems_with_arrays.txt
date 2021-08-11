@@ -1,0 +1,7 @@
+either size if fixed and pre-allocated (in both fixed and variable sized arrays), or the worst case insertion at the end if O(n)
+
+insertion in the middle (or beginning) is costly
+
+deletion from the middle (or beginning) is costly
+
+implementation of data structures like queue and deque is complex with array
