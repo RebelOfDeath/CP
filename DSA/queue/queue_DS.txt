@@ -1,0 +1,39 @@
+queue data structure (a.k.a FIFO)
+__________________________________
+
+
+							___________________________________________________
+
+		dequeue()		<--		| 	10	|	15	|	20	|	30	|	40	|		<-- 	enqueue()
+							___________________________________________________	
+
+
+									^								^
+									|								|
+
+									front							rear
+
+
+
+some operations on dequeue are (no specific language used)
+
+enqueue()
+dequeue()
+getFront()
+getRear()
+size()
+isEmpty()
+
+
+applications :
+______________
+
+* 	single resource and multiple consumers
+
+* 	synchronizatoins between slow and fast devices
+
+*	in operating systems (semaphores, FCFS, scheduling, spooling, buffers for devices like keyboards)
+
+*	in computers networks (routers, switches and mail queues)
+
+*	variations : deque, priority queue, doubly ended priority queue
