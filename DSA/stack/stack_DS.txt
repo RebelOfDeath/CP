@@ -1,0 +1,45 @@
+stack is a linear data structure
+
+it is closed from one side and open from the other
+
+the insertion opperation on stack a stack is called push and the removal is called pop
+
+the main operations on stack are *not in a certain langueage, only the functionality matters here*
+
+	isEmpty() : returns true if stack isempty else false;
+
+	push(x) : inserts an item to the top of the stack
+
+	pop() : removes an item from the top
+
+	peek() : returns the top item
+
+	size() : returns the size of stack
+
+underflow:
+	when pop() or peek() called on empty stack
+
+overflow;
+	when push called on a full stack
+
+
+
+stack can be implemented using linked list and arrays / vectors
+
+
+
+*********************** Applications of stacks ***********************
+
+funciton calls
+
+checking for balanced balanced paranthesis
+
+reversing items
+
+infix to prefix/postfix
+
+evaluation of postfix/prefix
+
+stock span problem and its variations
+
+undo/redo or forward/backword
