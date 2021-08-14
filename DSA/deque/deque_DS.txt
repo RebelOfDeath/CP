@@ -1,6 +1,6 @@
 deque stands for doubly ended queue
 
-this is a data structure similar to the que, the only differece being the insertiona and deletion of both ends.
+this is a data structure similar to the queue, the only differece being the insertiona and deletion of both ends.
 
 the opeartions that are possible on such data structures are (not based on any language)
 
