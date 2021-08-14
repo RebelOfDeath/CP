@@ -1,0 +1,37 @@
+deque stands for doubly ended queue
+
+this is a data structure similar to the que, the only differece being the insertiona and deletion of both ends.
+
+the opeartions that are possible on such data structures are (not based on any language)
+
+* InsertFront()
+* InsertRear()
+* DeleteFront()
+* DeleteRear()
+* getFront()
+* getRear()
+* isFull()
+* isEmpty()
+* size()
+
+
+for the implementations of deque you can use
+
+	linked list (doubly linked list)
+
+	array (circular array)
+
+
+
+applications :
+__________________
+
+* can be used as both stack and queue
+
+* maintaining history of actions
+
+* a steal process scheduling algorithm
+
+* implementaing a priority queue with two types of priorities
+
+* maximum / minimum of all subarrays of size k in an array
