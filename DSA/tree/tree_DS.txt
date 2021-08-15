@@ -1,0 +1,61 @@
+Tree data structure:
+----------------------
+
+tree is a non linear data structure
+
+it is recursive in nature
+
+tree stores data in hierarchical fashion, unlike array and linked list which store data in a sequential fassion
+
+used when wanting to show hierarchy for example a organization level structure (ceo, cto, employee, ...)
+
+
+terminology:
+--------------
+
+*node 		:  every data point
+*root		:  the top of the hierarchy
+*leaf		:  nodes which do not contain anything under them
+*child		:  nodes below another node
+*parent 	:  node above another node
+*subtree	:  due to the nature of this DS being recursive, there are different sub trees within a reglar tree
+*descendants:  all the nodes that lie in the subtree with this node as root
+*ancestors  :  any other node on the path from the node to the root
+*degree		:  number of the children a node has
+*internal   :  nodes that at least have one child
+
+
+
+
+applications:
+----------------
+
+* to represent hierarchical data
+	
+	-> organization structures
+	-> folder structure
+	-> xml / html content (Json objects)
+	-> in OOP (inheritance)
+
+* binary search trees
+
+* binary heap
+
+* B and B+ trees in DBMS
+
+* spanning and shortest path trees in computer networks
+
+* parse tree, expression tree in compilers
+
+* and many more...
+
+
+
+
+variations of tree:
+---------------------
+
+* Trie
+* Suffix tree
+* Binary Index Tree
+* Segment Tree
