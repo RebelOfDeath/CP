@@ -1,0 +1,15 @@
+binary search trees(balanced) provide search, insert, delete and find  closest in O(log N) and sorted traversal in O(n)
+
+binary search tree:
+-----------------------
+
+1- for every  node, keys in left side are smaller and keys in right side are greater
+
+2- all keys  are typically considered as distinct
+
+3- like linked list, it is a linked data structure
+
+4- implemented in c++ as map, set, multimpa and multiset.
+
+
+if the BST is not balanced all opperations on the  BST will be O(h) where h is the height of  the binary tree
